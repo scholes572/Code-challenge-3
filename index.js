@@ -6,5 +6,18 @@ function displayPosts() {
        .then(function(posts) {
         let postlist = document.getElementById("post list");
         postlist.innerHTML = "";
-       })
+
+        for (let p = 0; p < posts.length; p++) {
+            let post = posts[p];
+            let postBox = document.createElement("div");
+            let title = document.createElement("p");
+            title.textContent = post.title;
+            let image = document.createElement("img")
+            image.src = post.image;
+            
+
+
+        }
+
+    })
 }
