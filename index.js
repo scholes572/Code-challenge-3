@@ -18,6 +18,14 @@ function displayPosts() {
             postBox.appendChild(title);
             postBox.appendChild(image);
             postlist.appendChild(postBox);
+
+            title.addEventListener("click", function() {
+                let postDetail = document.getElementById("post detail");
+                postDetail.innerHTML =
+                 `<h2>${post.title}<h2>
+                  <p>${post.content}</p>
+                  <p><strong>Author:</strong> ${post.author}</p2>`
+            })
         }
     });
 }
