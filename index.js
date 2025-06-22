@@ -12,12 +12,12 @@ function displayPosts() {
             let postBox = document.createElement("div");
             let title = document.createElement("p");
             title.textContent = post.title;
-            let image = document.createElement("img")
+            let image = document.createElement("img");
             image.src = post.image;
-            
 
-
+            postBox.appendChild(title);
+            postBox.appendChild(image);
+            postlist.appendChild(postBox);
         }
-
-    })
+    });
 }
