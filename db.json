@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Groundbreaking Ceremony",
+      "content": "We officially broke ground on the site today. Exciting times ahead!",
+      "author": "Agostino Scholes & Team",
+      "image": "https://images.unsplash.com/photo-1581091012184-5c2578c244c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+    },
+
+    {
+      "id": 2,
+      "title": "Foundation Work Begins",
+      "content": "Excavation and laying of the building’s foundation is now underway.",
+      "author": "Agostino Scholes & Team",
+      "image": "https://images.unsplash.com/photo-1580910051070-f0bff11a1ba9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+    },
+
+    {
+      "id": 3,
+      "title": "Structural Framing",
+      "content": "Steel framing is going up quickly. The skeleton of the building is taking shape.",
+      "author": "Agostino Scholes & Team",
+      "image": "https://images.unsplash.com/photo-1599423300746-b62533397364?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+    },
+
+    {
+      "id": 4,
+      "title": "Electrical and Plumbing Installations",
+      "content": "Our crews have started roughing in the electrical wiring and plumbing systems.",
+      "author": "Agostino Scholes & Team",
+      "image": "https://images.unsplash.com/photo-1601956971450-07f4c8a6d68c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+    },
+
+    {
+      "id": 5,
+      "title": "Roofing Completed",
+      "content": "The roof is now complete! We are safe from the elements and moving to interior finishes.",
+      "author": "Agostino Scholes & Team",
+      "image": "https://images.unsplash.com/photo-1581263103319-edd8e5c76bb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+    }
+  ]
+}
