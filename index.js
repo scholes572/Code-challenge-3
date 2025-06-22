@@ -15,9 +15,6 @@ function displayPosts() {
             let image = document.createElement("img");
             image.src = post.image;
 
-            postBox.appendChild(title);
-            postBox.appendChild(image);
-            postlist.appendChild(postBox);
 
             title.addEventListener("click", function() {
                 let postDetail = document.getElementById("post detail");
@@ -26,6 +23,10 @@ function displayPosts() {
                   <p>${post.content}</p>
                   <p><strong>Author:</strong> ${post.author}</p2>`
             });
+
+            postBox.appendChild(title);
+            postBox.appendChild(image);
+            postlist.appendChild(postBox);
         }
     });
 }
