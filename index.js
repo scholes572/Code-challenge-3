@@ -36,5 +36,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function newPostListener() {
     const form = document.getElementById("A new post form");
+    form.addEventListener("submit", function(e) {
+        const title = document.getElementById("new title").value;
+        const image = document.getElementById("new image").value;
+        const content = document.getElementById("new content").value;
+        const author = document.getElementById("new author").value;
+        const newPost = {
+            title: title,
+            image: image,
+            content: content,
+            author: author
+        };
 
+    })
 }
