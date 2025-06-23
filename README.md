@@ -63,6 +63,5 @@ Here are the initial 5 blog posts stored in `db.json`:
     }
   ]
 }
-json-server --watch db.json
 
 
