@@ -4,7 +4,7 @@ function displayPosts() {
         return response.json();
     })
        .then(function(posts) {
-        let postlist = document.getElementById("post list");
+        let postlist = document.getElementById("postlist");
         postlist.innerHTML = "";
 
         for (let p = 0; p < posts.length; p++) {
@@ -48,5 +48,34 @@ function newPostListener() {
             author: author
         };
 
+        const postlist = document.getElementById("postlist");
+        const postBox = document.createElement("div");
+        const titleElement = document.createElement("p");
+        titleElement.textContent = newPost.title;
+
+        const imageElement = document.createElement("img");
+        imageElement.src = newPost.image;
+
+
+
+    titleEl.addEventListener("click", function() {
+      const detail = document.getElementById("postdetail");
+      detail.innerHTML = `
+        <h2>${newPost.title}</h2>
+        <p>${newPost.content}</p>
+        <p><strong>Author:</strong> ${newPost.author}</p>
+      `;
+    });
+    postBox.appendChild(titleElement);
+    postBox.appendChild(imageElement);
+    postList.appendChild(postBox);
+
+    form.reset();
     })
 }
+document.addEventListener("DOMContentLoaded", function main() {
+  displayPosts();
+  addNewPostListener();
+});
+
+
