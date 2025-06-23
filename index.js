@@ -30,3 +30,6 @@ function displayPosts() {
         }
     });
 }
+document.addEventListener("DOMContentLoaded", function() {
+    displayPosts();
+})
