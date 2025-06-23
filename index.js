@@ -32,4 +32,9 @@ function displayPosts() {
 }
 document.addEventListener("DOMContentLoaded", function() {
     displayPosts();
-})
+});
+
+function newPostListener() {
+    const form = document.getElementById("A new post form");
+
+}
